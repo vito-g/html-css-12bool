@@ -7,11 +7,6 @@
   background-color: black;
 }
 
-/* [class|="col-"]:nth-of-type(odd) {
-  background-color: white;
-  border: 1px solid green;
-} */
-
 .container-invert [class*="col-"]:nth-of-type(even) {
   background-color: black;
 }
