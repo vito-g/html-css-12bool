@@ -13,4 +13,14 @@
   line-height: 180px;
   background-color: lightcoral;
   border: 1px solid white;
+  position: relative;
+}
+
+.nested {
+  width: 50%;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
