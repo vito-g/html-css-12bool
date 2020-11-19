@@ -9,6 +9,16 @@
   margin: auto;
 }
 
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
 .col-12 {
   width: 100%;
 }
