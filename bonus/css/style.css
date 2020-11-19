@@ -2,3 +2,7 @@
   border: 1px solid black;
   height: 20px;
 }
+
+[class*="col-"]:nth-of-type(odd) {
+  background-color: black;
+}
