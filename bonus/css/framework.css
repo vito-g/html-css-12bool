@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-.container {
+.container, .container-invert{
   width: 500px;
   margin: auto;
   background-color: white;
