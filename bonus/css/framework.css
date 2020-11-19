@@ -10,6 +10,16 @@
   background-color: red;
 }
 
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
 /* Definizione formattazione colonne possibili */
 .col-25 {
   width: 100%;
