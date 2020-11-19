@@ -7,6 +7,7 @@
 .container {
   width: 500px;
   margin: auto;
+  background-color: red;
 }
 
 /* Definizione formattazione colonne possibili */
@@ -109,3 +110,4 @@
 .col-1 {
   width: calc(100% / 25);
 }
+/* Definizione formattazione colonne possibili */
