@@ -19,6 +19,10 @@
   float: left;
 }
 
+[class*="col-"] .container {
+  padding: 10px;
+}
+
 .col-12 {
   width: 100%;
 }

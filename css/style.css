@@ -6,3 +6,8 @@
   text-align: center;
   line-height: 300px;
 }
+
+
+[class*="col-"] .container [class*="col-"]{
+  height: 280px;
+}
