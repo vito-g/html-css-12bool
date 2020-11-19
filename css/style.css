@@ -2,15 +2,15 @@
 [class*="col-"] {
   border: 1px solid black;
   background-color: pink;
-  height: 300px;
+  height: 200px;
   text-align: center;
-  line-height: 300px;
+  line-height: 200px;
 }
 
 
 [class*="col-"] .container [class*="col-"]{
-  height: 260px;
-  line-height: 260px;
+  height: 180px;
+  line-height: 180px;
   background-color: lightcoral;
   border: 1px solid white;
 }
