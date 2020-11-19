@@ -4,16 +4,23 @@
 }
 
 .container:not(.container-invert) [class*="col-"]:nth-of-type(odd) {
-  background-color: black;
+  background-color: rgb(12,217,119);
 }
 
 .container-invert [class*="col-"]:nth-of-type(even) {
-  background-color: black;
+  background-color: rgb(12,217,119);
 }
 
-.qr-code {
+#qr-code, #name {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: rgba(255,255,255,0.25);
+  font-size: 21.5px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(0,21,51);
 }
