@@ -11,4 +11,6 @@
 [class*="col-"] .container [class*="col-"]{
   height: 260px;
   line-height: 260px;
+  background-color: lightcoral;
+  border: 1px solid white;
 }
