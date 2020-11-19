@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+/* Definizione formattazione colonne possibili */
+.col-25 {
+  width: 100%;
+}
+
+.col-24 {
+  width: calc((100% / 25) * 24);
+}
+
+.col-23 {
+  width: calc((100% / 25) * 23);
+}
+
+.col-22 {
+  width: calc((100% / 25) * 22);
+}
+
+.col-21 {
+  width: calc((100% / 25) * 21);
+}
+
+.col-20 {
+  width: calc((100% / 25) * 20);
+}
+
+.col-19 {
+  width: calc((100% / 25) * 19);
+}
+
+.col-18 {
+  width: calc((100% / 25) * 18);
+}
+
+.col-17 {
+  width: calc((100% / 25) * 17);
+}
+
+.col-16 {
+  width: calc((100% / 25) * 16);
+}
+
+.col-15 {
+  width: calc((100% / 25) * 15);
+}
+
+.col-14 {
+  width: calc((100% / 25) * 14);
+}
+
+.col-13 {
+  width: calc((100% / 25) * 13);
+}
+
+.col-12 {
+  width: calc((100% / 25) * 12);
+}
+
+.col-11 {
+  width: calc((100% / 25) * 11);
+}
+
+.col-10 {
+  width: calc((100% / 25) * 10);
+}
+
+.col-9 {
+  width: calc((100% / 25) * 9);
+}
+
+.col-8 {
+  width: calc((100% / 25) * 8);
+}
+
+.col-7 {
+  width: calc((100% / 25) * 7);
+}
+
+.col-6 {
+  width: calc((100% / 25) * 6);
+}
+
+.col-5 {
+  width: calc((100% / 25) * 5);
+}
+
+.col-4 {
+  width: calc((100% / 25) * 4);
+}
+
+.col-3 {
+  width: calc((100% / 25) * 3);
+}
+
+.col-2 {
+  width: calc((100% / 25) * 2);
+}
+
+.col-1 {
+  width: calc(100% / 25);
+}
